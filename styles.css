@@ -1,0 +1,821 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* header section */
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgb(212, 210, 210);
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 4.5px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+
+.nav i {
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 50%;
+    padding: 8px;
+    margin: -6px;
+}
+
+.nav i {
+    margin-right: 10px;
+}
+
+/* Home Section */
+
+section {
+    min-height: 100vh;
+}
+
+.home-section {
+    padding-top: 180px;
+}
+
+.home-content {
+    position: relative;
+    z-index: 1;
+}
+
+.container1 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.container1 h5 {
+    font-size: 20px;
+    padding: 5px 10px;
+    color: black;
+    width: fit-content;
+    background-color: white;
+}
+
+.container1 h5 span {
+    color: red;
+}
+
+.container1 h2 {
+    padding-top: 30px;
+    font-size: 3em;
+    color: white;
+}
+
+/* property section */
+
+.property {
+    min-height: 200vh;
+    padding-top: 200px;
+    position: relative;
+}
+
+.property .img {
+    position: absolute;
+    top: 550px;
+    left: 80px;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 75px;
+    height: 75px;
+}
+
+.property .img img {
+    width: 100%;
+    padding: 15px;
+}
+
+.featured-info h6 {
+    color: red;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.featured-info h1 {
+    color: black;
+    font-size: 3em;
+    padding-bottom: 60px;
+}
+
+.featured-info h5 {
+    color: red;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.featured-info p {
+    color: black;
+    border-bottom: 1px solid rgb(248, 237, 237);
+    padding-bottom: 15px;
+}
+
+.featured-info p span {
+    color: blue;
+}
+
+.card-1 {
+    padding: 25px;
+}
+
+/* .card {
+    transition: all 2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+} */
+
+.card-1 img {
+    width: 50px;
+}
+
+.card-1-info {
+    padding-right: 20px;
+}
+
+.video-bg {
+    padding-top: 50px;
+}
+.video-bg img {
+    width: 100%;
+}
+
+.img-text {
+    position: absolute;
+    top: 47%;
+    left: 46%;
+}
+
+.img-text h5 {
+    color: red;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.img-text1 {
+    position: absolute;
+    top: 50%;
+    left: 39%;
+}
+
+.img-text1 h1 {
+    color: white;
+    font-size: 3em;
+}
+
+
+.video-img {
+    position: absolute;
+    top: 61%;
+    left: 215px;
+}
+
+.video-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.video-play-btn {
+    position: absolute;
+    top: 72%;
+    left: 47%;
+    background-color: rgba(228, 102, 102, 0.733);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.video-play-btn i {
+    font-size: 50px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.buildings {
+    padding-top: 350px;
+    padding-left: 90px;
+}
+
+.build1,
+.build2,
+.build3 {
+    background-color: rgba(250, 219, 175, 0.485);
+    display: flex;
+    padding: 15px 40px;
+    border-radius: 20px;
+}
+
+.build1 h1,
+.build2 h1,
+.build3 h1 {
+    color: red;
+}
+
+.build11 {
+    position: absolute;
+    top: 93.5%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    left: 30%;
+    border-radius: 50%;
+}
+
+.build12 {
+    position: absolute;
+    top: 93.5%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    left: 56%;
+    border-radius: 50%;
+}
+
+.build13 {
+    position: absolute;
+    top: 93.5%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    left: 83%;
+    border-radius: 50%;
+}
+
+/* property details */
+
+.property-details {
+    min-height: 300vh;
+    position: relative;
+    padding-top: 50px;
+}
+
+.proper {
+    padding-top: 150px;
+}
+.proper h6 {
+    color: red;
+}
+
+
+.btn-danger, .btn-dark {
+    margin-right: 20px;
+}
+
+.proper1{
+    padding-top: 50px;
+}
+
+.proper1-1 h6 {
+    color: rgb(207, 205, 205);
+}
+
+.proper1-11 h6 {
+    color: black;
+}
+.proper1 .bord {
+    border-bottom: 0.5px solid rgb(228, 224, 224);
+}
+
+.proper2 h5 {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.proper2 h6 {
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+
+.nav12 {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 4.5px;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    width: fit-content;
+}
+
+.nav12 a {
+    text-decoration: none;
+    color: white;
+    padding:  0 4px;
+}
+
+.nav12 i {
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 50%;
+    padding: 8px;
+    margin: -12px -11px;
+}
+
+.nav12 i {
+    margin-right: 10px;
+}
+
+.proper31 {
+    padding-top: 50px;
+}
+
+.proper31 h6 {
+    color: red;
+}
+
+.proper31 h1 {
+    padding-top: 15px;
+}
+
+.proper32 img {
+    border-radius: 15px;
+}
+
+.card-body21 {
+    padding: 0 20px;
+}
+
+.card-body22 {
+    padding: 0 20px;
+}
+
+.card35, .card36, .card37{
+    transition: all 2s ease;
+}
+
+.card35:hover, .card36:hover, .card37:hover {
+    transform: scale(1.05);
+}
+
+.contact {
+    /* min-height: 150vh; */
+    padding-top: 80px;
+    padding-bottom: 30px;
+    position: relative;
+    background-image: url(./Images/contact-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.imaggee img {
+    width: 100%;
+}
+
+
+.card38 {
+    margin-top: -50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .container1 {
+        position: absolute;
+        top: 150px;
+        left: 30px;
+    }
+
+    .property .img {
+        position: absolute;
+        left: 0;
+    }
+
+    .home-section {
+        padding-top: 150px;
+    }
+
+    .container1 h2 {
+        padding-top: 30px;
+        font-size: 2em;
+        color: white;
+    }
+
+    .video-img {
+        top: 76%;
+        left: 60px;
+    }
+
+    .video-img img {
+        width: 200px;
+    }
+
+    .img-text {
+        top: 74%;
+        left: 41%;
+    }
+
+    .img-text h5 {
+        font-size: 8px;
+    }
+
+    .img-text1 {
+        top: 74.5%;
+        left: 36%;
+    }
+
+    .img-text1 h1 {
+        font-size: 12px;
+    }
+
+    .video-play-btn {
+        top: 77%;
+        left: 43%;
+    }
+
+    .video-play-btn i {
+        font-size: 20px;
+    }
+
+    .buildings {
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+
+    .build11,
+    .build12,
+    .build13 {
+        left: 86%;
+    }
+
+    .build11 {
+        top: 83%;
+    }
+
+    .build12 {
+        top: 89.5%;
+    }
+
+    .build13 {
+        top: 95.5%;
+    }
+    .proper1 img {
+        width: 400px;
+    }
+
+    .contact-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card37 {
+        width: 0em;
+    }
+
+    .prop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form1 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 426px) {
+    .container1 {
+        position: absolute;
+        top: 150px;
+        left: 30px;
+    }
+
+    .property .img {
+        position: absolute;
+        top: 630px;
+        left: 0;
+    }
+
+    .home-section {
+        padding-top: 150px;
+    }
+
+    .container1 h2 {
+        padding-top: 30px;
+        font-size: 2em;
+        color: white;
+    }
+    .video-img {
+        top: 77%;
+        left: 60px;
+    }
+
+    .video-img img {
+        width: 250px;
+    }
+
+    .img-text {
+        top: 75%;
+        left: 42%;
+    }
+
+    .img-text h5 {
+        font-size: 8px;
+    }
+
+    .img-text1 {
+        top: 75.5%;
+        left: 37%;
+    }
+
+    .img-text1 h1 {
+        font-size: 12px;
+    }
+
+    .video-play-btn {
+        top: 78.3%;
+        left: 43%;
+    }
+
+    .video-play-btn i {
+        font-size: 20px;
+    }
+
+    .buildings {
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+
+    .build11 {
+        top: 84.3%;
+        left: 81%;
+    }
+
+    .build12 {
+        top: 90%;
+        left: 75%;
+    }
+
+    .build13 {
+        top: 95.5%;
+        left: 74%;
+    }
+
+    .proper1 img {
+        width: 430px;
+    }
+
+    .prop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form1 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .container1 {
+        position: absolute;
+        top: 150px;
+        left: 30px;
+    }
+    .property .img {
+        position: absolute;
+        top: 600px;
+        left: 0;
+    }
+
+    .home-section {
+        padding-top: 150px;
+    }
+
+    .container1 h2 {
+        padding-top: 30px;
+        font-size: 2em;
+        color: white;
+    }
+
+    .video-img {
+        top: 75%;
+        left: 25%;
+    }
+
+    .video-img img {
+        width: 400px;
+    }
+
+    .img-text {
+        top: 70%;
+        left: 45%;
+    }
+
+    .img-text h5 {
+        font-size: 15px;
+    }
+
+    .img-text1 {
+        top: 71%;
+        left: 39%;
+    }
+
+    .img-text1 h1 {
+        font-size: 1.5em;
+    }
+
+    .video-play-btn {
+        top: 78.3%;
+        left: 48%;
+    }
+
+    .video-play-btn i {
+        font-size: 20px;
+    }
+
+    .buildings {
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+
+    .build11 {
+        top: 87%;
+        left: 42%;
+    }
+
+    .build12 {
+        top: 87%;
+        left: 84.5%;
+    }
+
+    .build13 {
+        top: 94%;
+        left: 39%;
+    }
+
+    .proper1 img {
+        width: 460px;
+    }
+    .contact-1 img {
+        width: 30px;
+    }
+
+    .contact-11 h5, .contact-11 h6 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .property .img {
+        position: absolute;
+        top: 640px;
+        left: 0;
+    }
+
+    .home-section {
+        padding-top: 150px;
+    }
+
+    .video-img {
+        top: 71%;
+        left: 20%;
+    }
+
+    .video-img img {
+        width: 600px;
+    }
+
+    .img-text {
+        top: 66%;
+        left: 46%;
+    }
+
+    .img-text h5 {
+        font-size: 15px;
+    }
+
+    .img-text1 {
+        top: 67%;
+        left: 38%;
+    }
+
+    .img-text1 h1 {
+        font-size: 2em;
+    }
+
+    .video-play-btn {
+        top: 76%;
+        left: 48%;
+    }
+
+    .video-play-btn i {
+        font-size: 20px;
+    }
+
+    .buildings {
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+
+    .build11 {
+        top: 87.5%;
+        left: 33.5%;
+    }
+
+    .build12 {
+        top: 87.5%;
+        left: 76.5%;
+    }
+
+    .build13 {
+        top: 94.5%;
+        left: 30.5%;
+    }
+
+    .contact-1 img {
+        width: 40px;
+    }
+
+    .contact-11 h5, .contact-11 h6 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .property .img {
+        position: absolute;
+        top: 640px;
+        left: 35px;
+    }
+
+    .home-section {
+        padding-top: 150px;
+    }
+
+    .video-img {
+        top: 65%;
+        left: 20%;
+    }
+
+    .video-img img {
+        width: 850px;
+    }
+
+    .img-text {
+        top: 55%;
+        left: 46%;
+    }
+
+    .img-text h5 {
+        font-size: 20px;
+    }
+
+    .img-text1 {
+        top: 57%;
+        left: 40%;
+    }
+
+    .img-text1 h1 {
+        font-size: 2.5em;
+    }
+
+    .video-play-btn {
+        top: 76%;
+        left: 47%;
+    }
+
+    .video-play-btn i {
+        font-size: 30px;
+    }
+
+    .buildings {
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+
+    .build11 {
+        top: 92.5%;
+        left: 25.5%;
+    }
+
+    .build12 {
+        top: 92.5%;
+        left: 54%;
+    }
+
+    .build13 {
+        top: 92.5%;
+        left: 83.5%;
+    }
+}
+
+

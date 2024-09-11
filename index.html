@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-brand {
+            font-size: 2rem;
+            font-style: italic;
+        }
+
+        .nav-item {
+            margin: 0 15px;
+        }
+
+        .nav-link:hover {
+            color: red;
+        }
+
+        .margin-1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 60px;
+            border-bottom: 1px solid rgb(240, 237, 237);
+        }
+
+        .navbar h6 {
+            padding-right: 30px;
+        }
+
+        .navbar h6 i {
+            padding-right: 10px;
+            color: red;
+        }
+
+        .navbar-1 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .navbar-1 h6 {
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-right: 20px;
+            padding: 5px 8px 3px;
+            align-items: center;
+            background-color: rgb(205, 204, 204);
+            color: white;
+        }
+
+        @media (max-width:768px) {
+            .margin-1 {
+                display: none;
+            }
+
+            .nav {
+                width: fit-content;
+            }
+        }
+
+        .carousel-indicators {
+            text-align: left;
+            padding: 0;
+            list-style-type: circle;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="margin-1">
+            <div class="navbar">
+                <h6><i class='bx bxl-gmail'></i>info.Company@gmail.com</h6>
+                <h6><i class='bx bx-map-alt'></i>Mypadu Beach, Nellore, A.P</h6>
+            </div>
+            <a href="" class="navbar-1">
+                <h6><i class='bx bxl-instagram'></i></h6>
+                <h6><i class='bx bxl-twitter'></i></h6>
+                <h6><i class='bx bxl-facebook'></i></h6>
+                <h6><i class='bx bxl-whatsapp'></i></h6>
+            </a>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-white mx-5 h5">
+            <div class="container-fluid">
+                <img class="navbar-brand" src="./Images/logo.png" width="100px"></img>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav margin">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home" style="color: red;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#property">Property</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#details">Property Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="nav">
+                        <a href="#"><i class='bx bxs-calendar-alt'></i>Schedule a Visit</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <div class="container1">
+                <h5>Nellore, A.P, <span>India</span></h5>
+                <h2>HURRY! <br> GET THE BEST <br> VILLA FOR YOU...</h2>
+            </div>
+        </div>
+        <div class="container-fluid imageees">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Images/banner-01.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 560px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/banner-02.jpg" class="d-block w-100 img-fulid" alt="..." style="height: 560px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/banner-03.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 560px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="property" class="property">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                    <img src="./Images/featured.jpg" class="img-fluid" alt="">
+                    <div class="img">
+                        <img src="./Images/featured-icon.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-xl-5 featured-info">
+                    <h6>| Featured</h6>
+                    <h1>Best <br> Appartment & <br> Sea View</h1>
+
+                    <h5>Best useful links ?</h5>
+                    <p>Get <b>the best villa</b> website template in HTML CSS and Bootstrap or your business. TemplateMo
+                        provides you the <span>best free CSS templates</span> in the world. Please tell your friends
+                        about it</p>
+                    <p>How does this work ?</p>
+                    <p>Why is Villa Agency the best ?</p>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-xl-3">
+                    <div class="card d-flex justify-content-center shadow-lg">
+                        <div class="card-1 d-flex">
+                            <img src="./Images/info-icon-01.png" alt="">
+                            <div class="card-1-info px-4">
+                                <h5>250 m2</h5>
+                                <p>Total Flat Space</p>
+                            </div>
+                        </div>
+
+                        <div class="card-1 d-flex">
+                            <img src="./Images/info-icon-02.png" alt="">
+                            <div class="card-1-info px-4">
+                                <h5>Contract</h5>
+                                <p>Contarct Ready</p>
+                            </div>
+                        </div>
+
+                        <div class="card-1 d-flex">
+                            <img src="./Images/info-icon-03.png" alt="">
+                            <div class="card-1-info px-4">
+                                <h5>Payment</h5>
+                                <p>Payment Process</p>
+                            </div>
+                        </div>
+
+                        <div class="card-1 d-flex">
+                            <img src="./Images/info-icon-04.png" alt="">
+                            <div class="card-1-info px-4">
+                                <h5>Safety</h5>
+                                <p>24/7 Under Control</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 video-bg">
+                    <img src="./Images/video-bg.jpg" alt="">
+                    <div class="img-text">
+                        <h5>| Video View</h5>
+                    </div>
+                    <div class="img-text1">
+                        <h1>Get Closer View & <br> Different Feelings</h1>
+                    </div>
+                    <div class="video-img">
+                        <img src="./Images/video-frame.jpg" alt="">
+                    </div>
+                    <div class="video-play-btn">
+                        <i class='bx bx-play' style='color:#f60505e9'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row g-5 buildings">
+                <div class="col-12 col-sm-6 col-md-6 col-xl-4 d-flex">
+                    <div class="build11"></div>
+                    <div class="build1">
+                        <h1>34</h1>
+                        <div class="build px-4">
+                            <h5>Buildings</h5>
+                            <h5>Finished Now</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-xl-4 d-flex">
+                    <div class="build12">
+                    </div>
+                    <div class="build2">
+                        <h1>12</h1>
+                        <div class="build px-4">
+                            <h5>Years</h5>
+                            <h5>Experience</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-xl-4 d-flex">
+                    <div class="build13"></div>
+                    <div class="build3">
+                        <h1>24</h1>
+                        <div class="build px-4">
+                            <h5>Awards</h5>
+                            <h5>Won 2023</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="details" class="property-details">
+        <div class="container proper">
+            <h6>| BEST DEAL</h6>
+            <h1>Find Your Best Deal</h1>
+            <div class="prop d-flex justify-content-between">
+                <h1>Right Now !</h1>
+                <div class="prop1">
+                    <a class="btn btn-danger mb-2">Appartment</a>
+                    <a class="btn btn-dark mb-2">Villa House</a>
+                    <a class="btn btn-dark mb-2">Pent House</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container proper1">
+            <div class="row g-5">
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3">
+                    <div class="card shadow-lg p-4">
+                        <div class="proper1-1 d-flex justify-content-between py-3 bord">
+                            <h6>Total Flat Space</h6>
+                            <div class="proper1-11">
+                                <h6>545 m<sup>2</sup></h6>
+                            </div>
+                        </div>
+
+                        <div class="proper1-1 d-flex justify-content-between py-3 bord">
+                            <h6>Floor Number</h6>
+                            <div class="proper1-11">
+                                <h6>25<sup>th</sup></h6>
+                            </div>
+                        </div>
+
+                        <div class="proper1-1 d-flex justify-content-between py-3 bord">
+                            <h6>Number of Rooms</h6>
+                            <div class="proper1-11">
+                                <h6>10</h6>
+                            </div>
+                        </div>
+
+                        <div class="proper1-1 d-flex justify-content-between py-3 bord">
+                            <h6>Parking Space</h6>
+                            <div class="proper1-11">
+                                <h6>Available</h6>
+                            </div>
+                        </div>
+
+                        <div class="proper1-1 d-flex justify-content-between py-3 bord">
+                            <h6>Payment Process</h6>
+                            <div class="proper1-11">
+                                <h6>Net Banking</h6>
+                            </div>
+                        </div>
+
+                        <div class="proper1-1 d-flex justify-content-between py-3 bord">
+                            <h6>Ambiance</h6>
+                            <div class="proper1-11">
+                                <h6>Best Ever</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-xl-6 image-har">
+                    <img src="./Images/deal-01.jpg" class="img-fluid rounded" alt="" width="620px">
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 proper2">
+                    <h5>Extra Info About Property</h5>
+                    <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde minima molestias harum, expedita
+                        numquam perferendis odio a ducimus pariatur consequuntur adipisci sint, nobis impedit libero
+                        exercitationem consectetur necessitatibus magnam ratione!
+                    </h6>
+                    <p>Get the best villa website template in HTML CSS and Bootstrap or your business. TemplateMo
+                        provides you the best free CSS templates in the world. Please tell your friends about it
+                    </p>
+
+                    <div class="nav12">
+                        <a href="#"><i class='bx bxs-calendar-alt'></i>Schedule a Visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container proper3">
+            <div class="proper31 text-center">
+                <h6>| PROPERTIES</h6>
+                <h1>We Provide The <br> Best Property <br> You Like</h1>
+            </div>
+
+            <div class="container py-5">
+                <div class="proper32">
+                    <div class="row g-5">
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <div class=" card p-4 card35"
+                                style="background-color: rgba(241, 242, 244, 0.5); border-bottom: 1px solid rgba(245, 240, 240, 0.389); border-radius: 10px; border: none; outline: none;">
+                                <img src="./Images/property-01.jpg" alt="">
+                                <div class="card-body1 d-flex justify-content-between align-items-center my-4">
+                                    <button
+                                        style="background-color: pink; padding: 5px 10px; border-radius: 12px; border: 1px solid pink; ">Luxery
+                                        Villa</button>
+                                    <h6 style="color: red; font-size: 20px;"><b>$ 60,00,0000</b></h6>
+                                </div>
+
+                                <h5 class="py-3">Near Mypadu Beach, Nellore - 524314</h5>
+                                <div class="card-body2 d-flex">
+                                    <h6>BedRooms: <b>10</b></h6>
+                                    <div class="card-body21">
+                                        <h6>BathRooms: <b>10</b></h6>
+                                    </div>
+                                </div>
+
+                                <div class="card-body2 d-flex"
+                                    style="border-bottom: 1px solid rgba(185, 180, 180, 0.629); padding-bottom: 15px;">
+                                    <h6>Area: <b>645 m<sup>2</sup></b></h6>
+                                    <div class="card-body21 d-flex">
+                                        <h6>Floor: <b>3</b></h6>
+                                        <div class="card-body22">
+                                            <h6>Parking: <b>10 Slots</b></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-dark btn-block w-100 mt-4">Schedule a Visit</button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <div class=" card p-4 card35"
+                                style="background-color: rgba(241, 242, 244, 0.5); border-bottom: 1px solid rgba(245, 240, 240, 0.389); border-radius: 10px; border: none; outline: none;">
+                                <img src="./Images/property-02.jpg" alt="">
+                                <div class="card-body1 d-flex justify-content-between align-items-center my-4">
+                                    <button
+                                        style="background-color: pink; padding: 5px 10px; border-radius: 12px; border: 1px solid pink; ">Luxery
+                                        Villa</button>
+                                    <h6 style="color: red; font-size: 20px;"><b>$ 50,00,0000</b></h6>
+                                </div>
+
+                                <h5 class="py-3">Near Mypadu Beach, Nellore - 524314</h5>
+                                <div class="card-body2 d-flex">
+                                    <h6>BedRooms: <b>8</b></h6>
+                                    <div class="card-body21">
+                                        <h6>BathRooms: <b>8</b></h6>
+                                    </div>
+                                </div>
+
+                                <div class="card-body2 d-flex"
+                                    style="border-bottom: 1px solid rgba(185, 180, 180, 0.629); padding-bottom: 15px;">
+                                    <h6>Area: <b>600 m<sup>2</sup></b></h6>
+                                    <div class="card-body21 d-flex">
+                                        <h6>Floor: <b>3</b></h6>
+                                        <div class="card-body22">
+                                            <h6>Parking: <b>8 Slots</b></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-dark btn-block w-100 mt-4">Schedule a Visit</button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <div class=" card p-4 card35"
+                                style="background-color: rgba(241, 242, 244, 0.5); border-bottom: 1px solid rgba(245, 240, 240, 0.389); border-radius: 10px; border: none; outline: none;">
+                                <img src="./Images/property-03.jpg" alt="">
+                                <div class="card-body1 d-flex justify-content-between align-items-center my-4">
+                                    <button
+                                        style="background-color: pink; padding: 5px 10px; border-radius: 12px; border: 1px solid pink; ">Luxery
+                                        Villa</button>
+                                    <h6 style="color: red; font-size: 20px;"><b>$ 40,00,0000</b></h6>
+                                </div>
+
+                                <h5 class="py-3">Near Mypadu Beach, Nellore - 524314</h5>
+                                <div class="card-body2 d-flex">
+                                    <h6>BedRooms: <b>6</b></h6>
+                                    <div class="card-body21">
+                                        <h6>BathRooms: <b>6</b></h6>
+                                    </div>
+                                </div>
+
+                                <div class="card-body2 d-flex"
+                                    style="border-bottom: 1px solid rgba(185, 180, 180, 0.629); padding-bottom: 15px;">
+                                    <h6>Area: <b>545 m<sup>2</sup></b></h6>
+                                    <div class="card-body21 d-flex">
+                                        <h6>Floor: <b>3</b></h6>
+                                        <div class="card-body22">
+                                            <h6>Parking: <b>7 Slots</b></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-dark btn-block w-100 mt-4">Schedule a Visit</button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <div class=" card p-4 card35"
+                                style="background-color: rgba(241, 242, 244, 0.5); border-bottom: 1px solid rgba(245, 240, 240, 0.389); border-radius: 10px; border: none; outline: none;">
+                                <img src="./Images/property-04.jpg" alt="">
+                                <div class="card-body1 d-flex justify-content-between align-items-center my-4">
+                                    <button
+                                        style="background-color: pink; padding: 5px 10px; border-radius: 12px; border: 1px solid pink; ">Luxery
+                                        Villa</button>
+                                    <h6 style="color: red; font-size: 20px;"><b>$ 35,00,0000</b></h6>
+                                </div>
+
+                                <h5 class="py-3">Near Mypadu Beach, Nellore - 524314</h5>
+                                <div class="card-body2 d-flex">
+                                    <h6>BedRooms: <b>6</b></h6>
+                                    <div class="card-body21">
+                                        <h6>BathRooms: <b>6</b></h6>
+                                    </div>
+                                </div>
+
+                                <div class="card-body2 d-flex"
+                                    style="border-bottom: 1px solid rgba(185, 180, 180, 0.629); padding-bottom: 15px;">
+                                    <h6>Area: <b>545 m<sup>2</sup></b></h6>
+                                    <div class="card-body21 d-flex">
+                                        <h6>Floor: <b>3</b></h6>
+                                        <div class="card-body22">
+                                            <h6>Parking: <b>8 Slots</b></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-dark btn-block w-100 mt-4">Schedule a Visit</button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <div class=" card p-4 card35"
+                                style="background-color: rgba(241, 242, 244, 0.5); border-bottom: 1px solid rgba(245, 240, 240, 0.389); border-radius: 10px; border: none; outline: none;">
+                                <img src="./Images/property-05.jpg" alt="">
+                                <div class="card-body1 d-flex justify-content-between align-items-center my-4">
+                                    <button
+                                        style="background-color: pink; padding: 5px 10px; border-radius: 12px; border: 1px solid pink; ">Luxery
+                                        Villa</button>
+                                    <h6 style="color: red; font-size: 20px;"><b>$ 30,00,0000</b></h6>
+                                </div>
+
+                                <h5 class="py-3">Near Mypadu Beach, Nellore - 524314</h5>
+                                <div class="card-body2 d-flex">
+                                    <h6>BedRooms: <b>5</b></h6>
+                                    <div class="card-body21">
+                                        <h6>BathRooms: <b>5</b></h6>
+                                    </div>
+                                </div>
+
+                                <div class="card-body2 d-flex"
+                                    style="border-bottom: 1px solid rgba(185, 180, 180, 0.629); padding-bottom: 15px;">
+                                    <h6>Area: <b>545 m<sup>2</sup></b></h6>
+                                    <div class="card-body21 d-flex">
+                                        <h6>Floor: <b>3</b></h6>
+                                        <div class="card-body22">
+                                            <h6>Parking: <b>6 Slots</b></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-dark btn-block w-100 mt-4">Schedule a Visit</button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+                            <div class=" card p-4 card35"
+                                style="background-color: rgba(241, 242, 244, 0.5); border-bottom: 1px solid rgba(245, 240, 240, 0.389); border-radius: 10px; border: none; outline: none;">
+                                <img src="./Images/property-06.jpg" alt="">
+                                <div class="card-body1 d-flex justify-content-between align-items-center my-4">
+                                    <button
+                                        style="background-color: pink; padding: 5px 10px; border-radius: 12px; border: 1px solid pink; ">Luxery
+                                        Villa</button>
+                                    <h6 style="color: red; font-size: 20px;"><b>$ 25,00,0000</b></h6>
+                                </div>
+
+                                <h5 class="py-3">Near Mypadu Beach, Nellore - 524314</h5>
+                                <div class="card-body2 d-flex">
+                                    <h6>BedRooms: <b>4</b></h6>
+                                    <div class="card-body21">
+                                        <h6>BathRooms: <b>4</b></h6>
+                                    </div>
+                                </div>
+
+                                <div class="card-body2 d-flex"
+                                    style="border-bottom: 1px solid rgba(185, 180, 180, 0.629); padding-bottom: 15px;">
+                                    <h6>Area: <b>545 m<sup>2</sup></b></h6>
+                                    <div class="card-body21 d-flex">
+                                        <h6>Floor: <b>3</b></h6>
+                                        <div class="card-body22">
+                                            <h6>Parking: <b>6 Slots</b></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-dark btn-block w-100 mt-4">Schedule a Visit</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container-fluid">
+            <div class="contact-detail">
+                <h6 class="text-center" style="color: red;">| CONTACT US</h6>
+                <h1 class="text-center" style="color: white; font-size: 3rem;">Get In Touch With</h1>
+                <h2 class="text-center" style="color: white; font-size: 3rem;">Our Agent</h2>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <!-- Left Side: Map + Contact Info -->
+                    <div class="col-12 col-md-6 d-flex flex-column">
+                        <img src="./Images/Screenshot 2024-09-10 202254.png" alt="" class="w-100" style="height: 100%;">
+
+                        <div class="row mt-4 g-4 card38">
+                            <div class="col-12 col-sm-6 col-md-6 col-xl-6">
+                                <div class="card shadow-lg card36 h-100">
+                                    <div class="card-body p-3 d-flex justify-content-center align-items-center">
+                                        <div class="contact-1 d-flex">
+                                            <img src="./Images/phone-icon.png" alt="">
+                                        </div>
+                                        <div class="contact-11 px-4">
+                                            <h5>010-020-0340</h5>
+                                            <h6 style="color: rgb(171, 171, 171);">Phone Number</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-md-6 col-xl-6">
+                                <div class="card shadow-lg card36 h-100">
+                                    <div class="card-body p-3 d-flex justify-content-center align-items-center">
+                                        <div class="contact-1 d-flex">
+                                            <img src="./Images/email-icon.png" alt="">
+                                        </div>
+                                        <div class="contact-11 px-4">
+                                            <h5>Info@villa.co</h5>
+                                            <h6 style="color: rgb(171, 171, 171);">Business Email</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="card shadow-lg h-100 form1">
+                            <div class="card-body p-5">
+                                <form action="#" method="post">
+                                    <h3 class="text-left py-3" style="color: red;">Contact Form</h3>
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingname"
+                                            placeholder="Full Name">
+                                        <label for="floatingname">Full Name</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="tel" class="form-control" id="floatingnumber" placeholder="number">
+                                        <label for="floatingnumber">Phone Number</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingsubject"
+                                            placeholder="Subject">
+                                        <label for="floatingsubject">Subject</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <textarea class="form-control" placeholder="Leave a comment here"
+                                            id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2">Comments</label>
+                                    </div>
+
+                                    <button class="btn btn-dark my-2">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="text-bg-secondary p-4 text-center" style="margin-top: 50px; font-size: 20px;">
+        &copy; 2024 Villas. all Rights Reserved
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
